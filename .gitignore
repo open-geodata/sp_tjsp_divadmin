@@ -1,3 +1,11 @@
+# IDEs
+.vscode/
+.idea/
+
+# Scrapy
+.wdm/
+scrapy/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
