@@ -1,7 +1,7 @@
 # Tribunal de Justiça de São Paulo (TJSP)
 
 - [GitHub](https://github.com/open-geodata/sp_tjsp_divadmin)
-- [PyPi]()
+- [PyPi](https://pypi.org/project/sp-tjsp-divadmin)
 
 <br>
 
@@ -13,7 +13,7 @@ Por meio do site das [Regiões Administrativas Judiciárias](https://www.tjsp.ju
 
 <br>
 
-O objetivo do presente repositório é atualizar manter rotina de atualização dessas informações, bem como disponibilizá-las por meio de pacotes [PyPi]().
+O objetivo do presente repositório é manter rotina de atualização dessas informações, bem como disponibilizá-las por meio de pacotes [PyPi](https://pypi.org/project/sp-tjsp-divadmin).
 
 > Dados Atualizados em 30.03.2023
 
