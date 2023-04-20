@@ -1,5 +1,6 @@
 """
 Pequenas Funções utilizadas no código.
+abr/2023
 """
 
 import re
