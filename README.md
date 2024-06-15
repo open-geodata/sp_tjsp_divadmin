@@ -14,7 +14,7 @@ Por meio do site das [Regiões Administrativas Judiciárias](https://www.tjsp.ju
 
 O objetivo do presente repositório é manter rotina de atualização dessas informações, bem como disponibilizá-las por meio de pacotes [PyPI](https://pypi.org/project/sp-tjsp-divadmin).
 
-> Dados Atualizados em 30.03.2023
+> Dados Atualizados em 15.06.2024
 
 <br>
 

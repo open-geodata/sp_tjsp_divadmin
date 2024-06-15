@@ -8,12 +8,13 @@ with open('README.md', 'r', encoding='utf-8') as f:
     long_description = f.read()
 
 requirements = []
-for line in open('requirements.txt', encoding='utf-8'):
-    li = line.strip()
-    if not li.startswith('#'):
-        requirements.append(line.rstrip())
+with open('requirements.txt', 'r', encoding='utf-8') as f:
+    for line in f:
+        li = line.strip()
+        if not li.startswith('#'):
+            requirements.append(line.rstrip())
 
-VERSION = (0, 0, 12)
+VERSION = (0, 0, 13)
 __version__ = '.'.join(map(str, VERSION))
 
 setup(
@@ -21,7 +22,7 @@ setup(
     version=__version__,
     author='Michel Metran',
     author_email='michelmetran@gmail.com',
-    description='Divisão Administrativa do TJSP, incluindo Comarcas, Cirscunscrições Judiciárias e Regiões Administrativas Judiciárias ',
+    description='Divisão Administrativa do TJSP, incluindo Comarcas, Cirscunscrições Judiciárias e Regiões Administrativas Judiciárias',
     long_description=long_description,
     long_description_content_type='text/markdown',
     url='https://github.com/open-geodata/sp_tjsp_divadmin',
